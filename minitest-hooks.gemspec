@@ -18,7 +18,7 @@ running each spec inside its own savepoint inside that transaction, which can
 significantly speed up testing for specs that share expensive database setup code.
 END
 
-  s.add_development_dependency "minitest", '>5'
+  s.add_development_dependency "minitest", '4.7.5'
   s.add_development_dependency "sequel", '>4'
   s.add_development_dependency "sqlite3"
   s.add_development_dependency "rake"
